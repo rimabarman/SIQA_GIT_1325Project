@@ -12,6 +12,12 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 - name: JMS2waySSL
+  version: "1.0"
+  gitServerName: SIQAPsurGit
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: prabhakarsag
+  gitBranch: main
+- name: JMSTest
   gitServerName: SIQAPsurGit
   gitUrl: https://github.com/prabhakarsag
   gitUsername: prabhakarsag
@@ -23,6 +29,8 @@ services:
     version: "1.0"
   - name: JMS2waySSL
     version: "1.0"
+  - name: JMSTest
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -33,6 +41,8 @@ services:
     version: "1.0"
   - name: JMS2waySSL
     version: "1.0"
+  - name: JMSTest
+    version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
@@ -42,6 +52,8 @@ services:
   - name: SIQA_GIT_1325Project
     version: "1.0"
   - name: JMS2waySSL
+    version: "1.0"
+  - name: JMSTest
     version: "1.0"
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
