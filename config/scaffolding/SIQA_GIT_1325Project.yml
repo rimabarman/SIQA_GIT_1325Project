@@ -18,6 +18,12 @@ packages:
   gitUsername: prabhakarsag
   gitBranch: main
 - name: JMSTest
+  version: "1.0"
+  gitServerName: SIQAPsurGit
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: prabhakarsag
+  gitBranch: main
+- name: SSL_JDBC_Test
   gitServerName: SIQAPsurGit
   gitUrl: https://github.com/prabhakarsag
   gitUsername: prabhakarsag
@@ -28,6 +34,8 @@ services:
   - name: SIQA_GIT_1325Project
     version: "1.0"
   - name: JMS2waySSL
+    version: "1.0"
+  - name: SSL_JDBC_Test
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -41,6 +49,8 @@ services:
     version: "1.0"
   - name: JMS2waySSL
     version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
   - name: JMSTest
     version: "1.0"
   - name: WmJDBCAdapter
@@ -52,6 +62,8 @@ services:
   - name: SIQA_GIT_1325Project
     version: "1.0"
   - name: JMS2waySSL
+    version: "1.0"
+  - name: SSL_JDBC_Test
     version: "1.0"
   - name: JMSTest
     version: "1.0"
